@@ -14,7 +14,7 @@ include ("auth.php");
 		<div class="logo"><img src="img/logoo.png" width="500" ></h1> </div>
 <!--Para crear el -->
 		<nav>
-			<a style="color: black" href="al-kuder.php">Mi Perfil</a>
+			<a style="color: black" href="al-kuder.php">Nombre</a>
 			<a style="color: black"  href="acercadekuder.php">Acerca de</a>
 			<a style="color: black"  href="p-kuder.php">Test de Kuder</a>
 			<a style="color: black"  href="prue.php">Resultados</a>
