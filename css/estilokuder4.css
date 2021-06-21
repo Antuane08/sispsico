@@ -1,0 +1,10 @@
+
+body{ 
+background-image: url("../img/bienvenido.png");
+background-size: cover;
+
+/*usamos background-repeat para que se repita en el eje "y"
+la imagen, tambien se puede usar no repeat para que no se repita mas abajo*/
+
+background-repeat: repeat-y;
+}

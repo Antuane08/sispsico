@@ -1,0 +1,131 @@
+
+*{margin:0;padding: 0;}
+
+header.titulor{
+background-color: #00BBBB;
+height: 120px;
+margin-top: 143px;
+}
+
+header p{
+font-family: "Forte";
+font-size: 80px;
+color: white;
+line-height: 35px;
+text-shadow: 1px 1px 1px #000;
+padding-top: 40px;
+}
+
+#leer{
+font-family: "Arial";
+padding-left: 2px;
+padding-right: 18px;
+padding-top: 45px;
+padding-bottom: 25px;
+background-color: #FFEECA;
+font-size: 20px;
+height: 50px;
+width:70%;
+background:beige;
+border-style: none;
+box-shadow: 0px 3px 3px;
+border-radius: 25px 25px 25px 25px;
+margin-left: 50px;
+
+}
+
+
+.linkpdf{
+
+background-color: black;
+border-radius: 30px;
+font-family: "Montserrat-Regular";
+position: relative;
+display: inline-block;
+padding: 20px 70px; /*alto y largo*/
+color: white;
+letter-spacing: 2px;
+font-size:22px;
+
+margin-bottom: 40px;
+text-decoration: none; /*le quitamos el subrayado que viene por defecto*/
+transition: 0.2s; /*le damos un transicion con un tiempo de 0.2s para que luego se vea el efecto hover de manera suave(no muy rapida)*/
+}
+
+
+.linkpdf:hover{
+
+background-color: #F9F871;
+box-shadow: 0 0 40px #F9F871, 0 0 40px #F9F871, 0 0 60px #F9F871;
+transition-delay: 0.5s;
+border-radius: 30px;
+}
+
+#cajita{
+border-color: white;
+height: 57px;
+width: 174px;
+border-radius: 30px;
+margin-top: 150px;
+}
+
+@font-face{
+
+font-family: "Montserrat-Regular";
+src: url("../fonts/Montserrat-Regular.ttf");
+font-family: "Montserrat-Medium";
+src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+.alumnos{
+font-family: Montserrat-Medium;
+border-collapse: collapse;
+border: 1px solid #EBEBEB;
+margin: 10px auto;
+text-align: center;
+width: 100%;
+max-width: 1000px;
+text-align: center;
+}
+
+.alumnos tr:hover{
+
+	background: #B0D8FA;
+}
+.alumnos td{
+height: 45px;
+
+}
+
+.escuelas{
+font-family: Helvetica;
+border-collapse: collapse;
+border: 1px solid #EBEBEB;
+margin: 10px auto;
+text-align: center;
+width: 100%;
+max-width: 400px;
+text-align: center;
+font-size: 23px;
+}
+
+.btn{
+
+font-family:  Helvetica;
+border-collapse: collapse;
+border: 1px solid #EBEBEB;s
+text-align: center;
+width: 100%;
+max-width: 400px;
+text-align: center;
+height: 40px;
+font-size: 1em;
+background-color: #5dade2;
+}
+
+input.btn:hover{
+
+
+background-color: #7ABBE7;
+}
+

@@ -1,0 +1,77 @@
+
+
+body{
+
+	background-image: url("../img/fondouni.jpg");
+	background-size: cover;
+
+	background-repeat: repeat-y;
+/*usamos padding:0px para que no quede algun espacio;
+*/
+	background-attachment: fixed;
+}
+
+
+#grupo{
+
+margin:auto;/*centramos el fieldset*/
+width:22%;
+background: rgba(0,0,0,.15);
+border-style: none;
+box-shadow: 0px 3px 3px;
+border-radius: 20px 20px 20px 20px;
+
+}
+
+.caja{
+
+width: 200px;
+height: 42px;
+border-style: none;
+border-radius: 4px;
+
+font-size: 14px;
+}
+
+
+#iniciar{
+
+font-size: 16px;
+font-family: "Arial";
+height: 38px;
+width: 160px;
+border-style: none;
+border-radius: 7px 7px 7px 7px;
+background-color: #5dade2;
+color: white;
+box-shadow: 0px 4px 0px #4AA4DF;
+}
+
+input#iniciar:hover{
+
+background-color: #7ABBE7;
+}
+
+
+
+@font-face{
+
+font-family: "FiraSansExtraCondensed-Regular";
+src: url("../fonts/FiraSansExtraCondensed-Regular.ttf");
+
+font-family: "Montserrat-Regular";
+src: url("../fonts/Montserrat-Regular.ttf");
+
+}
+
+
+p{
+
+
+font-family: "Arial";
+font-size: 26px;
+color: white;
+font-weight: bold;
+line-height: 35px;
+text-shadow: 1px 1px 1px #000;
+}
